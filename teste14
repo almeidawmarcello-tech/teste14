@@ -1,0 +1,9 @@
+ubuntu@vcn-vexa-vnic:~/vexa$ curl -i -N --max-time 10 "http://localhost:8056/agent/meeting/stream?meeting_id=1&session_uid=test"
+HTTP/1.1 401 Unauthorized
+date: Sat, 26 Sep 2026 04:27:35 GMT
+server: uvicorn
+content-length: 29
+content-type: application/json
+x-trace-id: c650874b77384151874a570b21addf41
+
+{"detail": "Missing API key"}ubuntu@vcn-vexa-vnic:~/vexa$
